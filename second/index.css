@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 25px;
+  }
+  
+  
+  #border-one {
+    width: 100%;
+    height: 225px;
+    border: 5px solid rgba(0, 0, 0, 0.993);
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .box-one {
+      height: 150px;
+      width: 50px;
+      background-color: rgb(142, 50, 228);
+      display: inline-block;
+      margin-right: 50px;
+  }
+
+  .box-two {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(5, 151, 5);
+    display: inline-block;
+  }
+
+  .circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(139, 209, 236);
+    display: inline-block;
+    float: right;
+    margin-right: 15%;
+  }
+
+  #border-two {
+    width: 100%;
+    height: 300px;
+  border: 5px dotted rgba(0, 0, 0, 0.973);
+  padding: 50px;
+  box-sizing: border-box ;
+  margin-top: 25px; 
+  }
+
+  .shadow-box {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(241, 245, 188);
+    box-shadow: 10px 10px 10px rgb(116, 115, 115)
+  }
+
+  .border-three {
+    width: 50%;
+    border: 2px solid rgba(204, 204, 204, 0.986);
+    background-color: rgba(255, 255, 255, 0.959);
+    padding: 100px;
+    box-sizing: border-box ;
+    margin: 25px auto; 
+    box-shadow: 5px 5px 5px rgb(158, 158, 158);
+  }
+
+  .border-three h1 {
+    width: 100%;
+    text-align: center;
+    color: rgb(4, 4, 122);
+    letter-spacing: 10px;
